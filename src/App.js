@@ -11,7 +11,7 @@ import "./App.css";
 
 const socket = io.connect(
 	"https://13e1-2405-201-200b-108a-383e-1729-4599-d140.ngrok-free.app",
-	{ transports: ["websocket", "polling", "xhr-polling", "flashsocket"] }
+	{ transports: ["polling"] }
 );
 
 function App() {
