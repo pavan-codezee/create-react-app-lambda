@@ -10,7 +10,7 @@ import io from "socket.io-client";
 import "./App.css";
 
 const socket = io.connect(
-	"https://bd7a-2405-201-200b-108a-383e-1729-4599-d140.ngrok-free.app",
+	"https://13e1-2405-201-200b-108a-383e-1729-4599-d140.ngrok-free.app",
 	{ transports: ["websocket", "polling", "xhr-polling", "flashsocket"] }
 );
 
